@@ -10,8 +10,10 @@ dependencies = [
     "langchain>=1.4.3",
     "langchain-community>=0.4.2",
     "langchain-text-splitters>=1.1.2",
+    "pinecone>=10.0.0",
     "pypdf>=6.19.0",
     "pytest>=9.1.1",
+    "python-dotenv>=1.2.3",
     "sentence-transformers>=6.1.0",
     "uvicorn[standard]>=0.54.0",
 ]
