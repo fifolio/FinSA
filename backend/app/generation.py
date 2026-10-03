@@ -19,7 +19,7 @@ def get_llm() -> HuggingFacePipeline:
     if _llm is None:
         hf_pipeline = pipeline(
             "text-generation",
-            model="Qwen/Qwen2.5-0.5B-Instruct",
+            model="HuggingFaceTB/SmolLM2-135M-Instruct",
             max_new_tokens=300
         )
         _llm = HuggingFacePipeline(pipeline=hf_pipeline)
